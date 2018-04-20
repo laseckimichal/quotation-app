@@ -18,5 +18,6 @@ gem 'slim'
 gem 'simple_form'
 gem 'spring'
 gem 'turbolinks'
+gem 'uglifier'
 
 ruby '2.5.0'

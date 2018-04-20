@@ -199,6 +199,8 @@ GEM
     turbolinks-source (5.1.0)
     tzinfo (1.2.5)
       thread_safe (~> 0.1)
+    uglifier (4.1.5)
+      execjs (>= 0.3.0, < 3)
     websocket-driver (0.6.5)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.3)
@@ -224,6 +226,10 @@ DEPENDENCIES
   slim
   spring
   turbolinks
+  uglifier
+
+RUBY VERSION
+   ruby 2.5.0p0
 
 BUNDLED WITH
    1.16.1
