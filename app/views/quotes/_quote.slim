@@ -1,0 +1,9 @@
+.col-sm-6
+  .card.text-white.bg-dark
+    .card-header
+      | Quote ##{quote.id}
+    .card-body
+      blockquote.blockquote
+        p = quote.body
+        footer.blockquote-footer
+          | Someone famous

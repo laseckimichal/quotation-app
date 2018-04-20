@@ -1,0 +1,6 @@
+ol.breadcrumb
+  - breadcrumbs(display_single_fragment: true).tap do |links|
+    - if links.any?
+      - links.each do |link|
+        li.breadcrumb-item
+          = link_to link.text, link.url, class: (link.current? ? 'breadcrumb-item active' : 'breadcrumb-item')
