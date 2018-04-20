@@ -18,3 +18,5 @@ gem 'slim'
 gem 'simple_form'
 gem 'spring'
 gem 'turbolinks'
+
+ruby '2.5.0'

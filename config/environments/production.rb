@@ -21,4 +21,6 @@ Rails.application.configure do
   config.log_formatter = ::Logger::Formatter.new
 
   config.active_record.dump_schema_after_migration = false
+
+  config.assets.initialize_on_precompile = false
 end
